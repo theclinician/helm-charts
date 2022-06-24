@@ -12,4 +12,15 @@ entries:
     urls:
     - https://theclinician.github.io/helm-charts/pgo-0.3.1.tgz
     version: 0.3.1
-generated: "2022-06-24T19:21:47.261668+08:00"
+  - apiVersion: v2
+    appVersion: 5.1.1
+    created: "2022-06-24T19:52:07.2434+08:00"
+    description: Installer for PGO, the open source Postgres Operator from Crunchy
+      Data
+    digest: d5413474ce69f8018f4134b4a261878cd30f5b1f59df267d9d10329ac61f8238
+    name: pgo
+    type: application
+    urls:
+    - https://theclinician.github.io/helm-charts/pgo-0.3.1-tc.1.tgz
+    version: 0.3.1-tc.1
+generated: "2022-06-24T19:52:07.238564+08:00"
