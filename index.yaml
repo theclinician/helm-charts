@@ -1,26 +1,43 @@
 apiVersion: v1
 entries:
+  bitnami-common:
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 1.10.0
+    created: "2023-01-20T23:37:27.707307+08:00"
+    description: A Library Helm Chart for grouping common logic between bitnami charts.
+      This chart is not deployable by itself.
+    digest: 3f536012895e4b76db1243de83aa8834d5aa19232a90f1bc531f0d951c669b95
+    home: https://github.com/bitnami/charts/tree/master/bitnami/common
+    icon: https://bitnami.com/downloads/logos/bitnami-mark.png
+    keywords:
+    - common
+    - helper
+    - template
+    - function
+    - bitnami
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: bitnami-common
+    sources:
+    - https://github.com/bitnami/charts
+    - https://www.bitnami.com/
+    type: library
+    urls:
+    - https://theclinician.github.io/helm-charts/bitnami-common-1.10.4.tgz
+    version: 1.10.4
   pgo:
   - apiVersion: v2
     appVersion: 5.1.1
-    created: "2022-06-24T19:21:47.265161+08:00"
+    created: "2023-01-20T23:37:27.710532+08:00"
     description: Installer for PGO, the open source Postgres Operator from Crunchy
       Data
-    digest: 678146fb5f76ce2409829e3dc5ed65b25bbb5a08c2767307cbe7a5092d5c8d13
-    name: pgo
-    type: application
-    urls:
-    - https://theclinician.github.io/helm-charts/pgo-0.3.1.tgz
-    version: 0.3.1
-  - apiVersion: v2
-    appVersion: 5.1.1
-    created: "2022-06-24T19:52:07.2434+08:00"
-    description: Installer for PGO, the open source Postgres Operator from Crunchy
-      Data
-    digest: d5413474ce69f8018f4134b4a261878cd30f5b1f59df267d9d10329ac61f8238
+    digest: a1b735b1041cb0502dbcc7d3a530a5c88b68cd9a4451184b03973d9f5600ad3a
     name: pgo
     type: application
     urls:
     - https://theclinician.github.io/helm-charts/pgo-0.3.1-tc.1.tgz
     version: 0.3.1-tc.1
-generated: "2022-06-24T19:52:07.238564+08:00"
+generated: "2023-01-20T23:37:27.705466+08:00"
