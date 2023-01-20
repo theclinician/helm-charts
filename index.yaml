@@ -5,7 +5,7 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 1.10.0
-    created: "2023-01-20T23:37:27.707307+08:00"
+    created: "2023-01-20T23:41:32.455569+08:00"
     description: A Library Helm Chart for grouping common logic between bitnami charts.
       This chart is not deployable by itself.
     digest: 3f536012895e4b76db1243de83aa8834d5aa19232a90f1bc531f0d951c669b95
@@ -28,16 +28,62 @@ entries:
     urls:
     - https://theclinician.github.io/helm-charts/bitnami-common-1.10.4.tgz
     version: 1.10.4
+  mongodb:
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 4.4.11
+    created: "2023-01-20T23:41:32.459547+08:00"
+    dependencies:
+    - name: bitnami-common
+      repository: https://theclinician.github.io/helm-charts
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: NoSQL document-oriented database that stores JSON-like documents
+      with dynamic schemas, simplifying the integration of data in content-driven
+      applications.
+    digest: 35e4be17e40fe945345b431133938b87847ce79b9422c17a88a5900756e21528
+    home: https://github.com/bitnami/charts/tree/master/bitnami/mongodb
+    icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+    keywords:
+    - mongodb
+    - database
+    - nosql
+    - cluster
+    - replicaset
+    - replication
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: mongodb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mongodb
+    - https://mongodb.org
+    urls:
+    - https://theclinician.github.io/helm-charts/mongodb-10.31.5.tgz
+    version: 10.31.5
   pgo:
   - apiVersion: v2
     appVersion: 5.1.1
-    created: "2023-01-20T23:37:27.710532+08:00"
+    created: "2023-01-20T23:41:32.46463+08:00"
     description: Installer for PGO, the open source Postgres Operator from Crunchy
       Data
-    digest: a1b735b1041cb0502dbcc7d3a530a5c88b68cd9a4451184b03973d9f5600ad3a
+    digest: 678146fb5f76ce2409829e3dc5ed65b25bbb5a08c2767307cbe7a5092d5c8d13
+    name: pgo
+    type: application
+    urls:
+    - https://theclinician.github.io/helm-charts/pgo-0.3.1.tgz
+    version: 0.3.1
+  - apiVersion: v2
+    appVersion: 5.1.1
+    created: "2023-01-20T23:41:32.462267+08:00"
+    description: Installer for PGO, the open source Postgres Operator from Crunchy
+      Data
+    digest: d5413474ce69f8018f4134b4a261878cd30f5b1f59df267d9d10329ac61f8238
     name: pgo
     type: application
     urls:
     - https://theclinician.github.io/helm-charts/pgo-0.3.1-tc.1.tgz
     version: 0.3.1-tc.1
-generated: "2023-01-20T23:37:27.705466+08:00"
+generated: "2023-01-20T23:41:32.453794+08:00"

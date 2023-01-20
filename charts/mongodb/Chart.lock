@@ -1,0 +1,6 @@
+dependencies:
+- name: bitnami-common
+  repository: https://theclinician.github.io/helm-charts
+  version: 1.10.4
+digest: sha256:436047e97ce22ff476ee60bab06810eed90f395bef06878632104d26d7a550ca
+generated: "2023-01-20T23:41:26.185264+08:00"
